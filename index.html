@@ -15,6 +15,10 @@
     const multiply = (a, b) => a * b;
     const divide = (a, b) => a / b;
     
+    //Create a function that will use a given operator as a callback
+    const operate = function(operator, num1, num2){
+        return operator(num1, num2);
+    };
 
    
 
