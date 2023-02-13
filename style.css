@@ -1,16 +1,21 @@
 .container{
-    border:5px solid goldenrod;
+    border:5px solid silver;
     max-height: 100vh;
-    
-    /*display: flex;
+    padding: 5px;
+
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;*/
+    flex-direction: column;
+    align-items: center;
+
 }
 
-h1{
+.heading{
     border:5px solid red;
+    margin:5px;
 }
-button {
+.btn {
     border: 5px solid mistyrose;
-
+    display: flex;
+    
 }
