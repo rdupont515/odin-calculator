@@ -6,19 +6,24 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-
+    
 }
 
 .heading{
     border:5px solid red;
-    
-    
+    text-align: center;
+}
+
+.heading > .title{
+    font-size: 1.5em;
+    font-weight: bold;
 }
 .btn{
     border: 5px solid mistyrose;
     
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 button{
